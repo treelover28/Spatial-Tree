@@ -15,3 +15,5 @@ For every y-node:
 As it turns out, this property allows us to efficiently perform queries like **"which points are within a given radius of a target?"**
 
 ## Result 
+The following image show querying result in a circle centered at (500,500) with radius 200 from a map of 2000 location-points.
+![spatialTreeExamples](https://user-images.githubusercontent.com/50902696/58613137-131c1180-8272-11e9-874e-19f9ad001ff1.PNG)
