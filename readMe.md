@@ -9,6 +9,7 @@ This causes different levels of the tree to compare points differently, using th
 For every x-node:
 * All descendants in the left subtree have a smaller x-coordinate than the point stored at the node.  Visually, all descendant points are left of this point.
 * All descendants in the right subtree have a larger x-coordinate than the points stored at the node.  Visually, all descendant points are right of this point.
+
 For every y-node:
 * All descendants in the left subtree have a smaller y-coordinate than the point stored at the node.  Visually, all descendant points are below this point.
 * All descendants in the right subtree have a larger y-coordinate than the point stored at the node.  Visually, all descendant points are above this point.
