@@ -13,6 +13,7 @@ For every x-node:
 For every y-node:
 * All descendants in the left subtree have a smaller y-coordinate than the point stored at the node.  Visually, all descendant points are below this point.
 * All descendants in the right subtree have a larger y-coordinate than the point stored at the node.  Visually, all descendant points are above this point.
+
 As it turns out, this property allows us to efficiently perform queries like **"which points are within a given radius of a target?"**
 
 ## Result 
